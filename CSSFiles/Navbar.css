@@ -1,0 +1,24 @@
+#header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: solid 1px #000;
+    height: 4em;
+}
+
+#logoBox {
+    display: flex;
+    width: 25%;
+}
+
+#logo {
+    max-height: 4em;
+}
+
+#contentBox {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
