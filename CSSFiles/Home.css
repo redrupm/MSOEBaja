@@ -9,7 +9,7 @@
     left: 15%;
     position: relative;
     width: 35%;
-    height: 33vh;
+    height: 11vh;
     overflow: hidden;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .next {
-    right: 0.1em;
+    right: 0;
     border-radius: 3px 0 0 3px;
 }
 
