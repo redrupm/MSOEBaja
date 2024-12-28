@@ -5,16 +5,16 @@
 }
 
 #slideshow {
-    top: 0.5em;
+    top: 0.1vh;
     left: 15%;
     position: relative;
     width: 35%;
-    height: 33em;
+    height: 33vh;
     overflow: hidden;
 }
 
 .slide {
-    height: 33em;
+    height: 11vh;
     display: none;
 }
 
