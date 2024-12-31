@@ -105,3 +105,12 @@ hr {
 #readMore {
     margin-top: 1em;
 }
+
+@media handheld {
+    #slideAndPara {
+        height: 50vh;
+    }
+    .photo {
+        height: 8vh;
+    }
+}
