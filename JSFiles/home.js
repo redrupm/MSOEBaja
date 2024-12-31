@@ -21,4 +21,15 @@ function showSlides(n) {
 
 window.onload = () => {
     showSlides(slideIndex);
+    let loaded = false
+    document.getElementById('readMore').onclick = () => {
+        if(!loaded){
+            document.getElementById('moreGroups').style.display = "block";
+            loaded = true;
+        } else {
+            document.getElementById('moreGroups').style.display = "none";
+            loaded = false;
+        }
+
+    }
 }

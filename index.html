@@ -5,17 +5,30 @@
   <title id="title">Title</title>
   <script src="JSFiles/navbar.js"></script>
   <link rel="stylesheet" href="CSSFiles/Navbar.css" type="text/css">
+  <link rel="stylesheet" href="https://use.typekit.net/nup6ffx.css">
 </head>
 <body>
   <nav id="header">
     <div id="logoBox">
-        <img id="logo" src="Pictures/Logo.png" alt="MSOE logo">
+        <img id="logo" src="Pictures/LogoTrial.jpeg" alt="MSOE logo">
     </div>
     <div id="contentBox">
-      <h1>HOME</h1>
-      <h1>VEHICLES</h1>
-      <h1>SUPPORT</h1>
-      <h1>CONTACT US</h1>
+      <h1 class="clickable" id="Home.html">HOME</h1>
+      <div>
+        <div class="clickable" style="display: flex"><h1>VEHICLES</h1><h1 class="arrow">▾</h1></div>
+        <ul>
+          <li class="clickable" id="Current.html">Current</li>
+          <li class="clickable" id="Past.html">Past</li>
+        </ul>
+      </div>
+      <div>
+        <div class="clickable" style="display: flex"><h1>SUPPORT </h1><h1 class="arrow">▾</h1></div>
+        <ul>
+          <li class="clickable" id="Donate.html">Donate</li>
+          <li class="clickable" id="Sponsorship.html">Sponsorship</li>
+        </ul>
+      </div>
+      <h1 class="clickable" id="Contact.html">CONTACT US</h1>
     </div>
   </nav>
   <embed id="body" type="text/html" src="HTMLFiles/Home.html">
