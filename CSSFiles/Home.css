@@ -1,7 +1,7 @@
 #slideAndPara {
     display: flex;
     width: 100%;
-    height: 95vh;
+    height: 50vh;
     margin: 0;
 }
 
@@ -94,7 +94,7 @@ hr {
     font-weight: 400;
 }
 .photo {
-    height: 20vh;
+    height: 8vh;
     border-radius: 50%;
 }
 
@@ -106,11 +106,11 @@ hr {
     margin-top: 1em;
 }
 
-@media handheld {
+@media only screen and (min-width: 768px) {
     #slideAndPara {
-        height: 50vh;
+        height: 95vh;
     }
     .photo {
-        height: 8vh;
+        height: 20vh;
     }
 }
