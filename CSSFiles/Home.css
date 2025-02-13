@@ -2,7 +2,6 @@
     width: 100%;
     height: 95vh;
     margin: 0;
-    color: red;
 }
 
 #slideshow {
@@ -55,7 +54,7 @@
 
 hr {
     margin-top: 1.5em;
-    border-top: black solid 1px;
+    border-top: darkred solid 1px;
 }
 
 #paragraph {
@@ -108,7 +107,6 @@ hr {
 
 @media only screen and (orientation: landscape) {
     #slideAndPara {
-        color: black;
         display: flex;
         height: 95vh;
     }
