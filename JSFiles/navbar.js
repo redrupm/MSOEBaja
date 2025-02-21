@@ -16,3 +16,18 @@ window.onload = () => {
         }
     })
 }
+
+window.onscroll = function() {
+    scrollFunction()
+};
+
+function scrollFunction() {
+
+    if (document.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("header").style.height = "2em";
+        document.getElementById("logo").style.fontSize = "25px";
+    } else {
+        document.getElementById("header").style.height = "4em";
+        document.getElementById("logo").style.fontSize = "35px";
+    }
+}

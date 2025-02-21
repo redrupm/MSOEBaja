@@ -17,6 +17,11 @@ function showSlides(n) {
         slides[i].style.display = "none";
     }
     slides[slideIndex-1].style.display = "block";
+
+    let background = document.getElementById("background");
+    background.src = slides[slideIndex-1].src;
+    let leftAlign = ((window.innerWidth - slides[slideIndex-1].width) / 2) - 30;
+    slides[slideIndex-1].style.left = `${leftAlign}px`;
 }
 
 window.onload = () => {

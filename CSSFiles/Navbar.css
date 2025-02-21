@@ -1,15 +1,20 @@
+body {
+    background: #342b2e;
+    color: #e2e1e1;
+    margin: 0;
+}
 #header {
     display: flex;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
     height: 4em;
     z-index: 100;
-    background: white;
-    border-bottom: darkred solid 1px;
+    background: #22191c;
+    border-bottom: #200000 solid 1px;
     padding-bottom: 0.5em;
-    box-shadow: 3px 2px 3px #5a0000;
+    box-shadow: 3px 2px 3px #151515;
 }
 
 #logoBox {
@@ -25,13 +30,12 @@
     display: flex;
     justify-content: space-around;
     width: 75%;
+    color: #e2e1e1;
 }
 
 #body {
-    position: relative;
-    top: 4.25em;
     width: 100%;
-    height: 87vh;
+    height: 87.5vh;
     overflow: hidden;
 }
 
@@ -43,35 +47,56 @@ ul {
     display: none;
     list-style-type: none;
     padding: 5px;
-    background: #fff;
+    background: #22191c;
     position: absolute;
     z-index: 999;
     top: 2.5em;
     text-align: left;
     font-family: brother-1816, sans-serif;
     font-weight: 600;
+    box-shadow: 3px 2px 3px #151515;
 }
 
 div div:hover ul {
     display: block;
-    color: black;
+    color: #e2e1e1;
 }
 
 div div:hover {
-    color: darkred;
+    color: #FF4945;
 }
 
 div div:hover div h1.arrow {
-    background-color: darkred;
+    background-color: #FF4945;
     color: white;
 }
 
 .clickable:hover {
-    color: darkred;
+    color: #FF4945;
     cursor: pointer;
 }
 
 h1 {
     font-family: brother-1816, sans-serif;
     font-weight: 800;
+}
+
+#footer {
+    height: 80vh;
+}
+
+/* This part changes the scrollbar track (the part behind the scrollbar) */
+::-webkit-scrollbar-track {
+    background: #1E1E1E; /* Dark grey color, you can choose any color you like */
+}
+
+/* This part changes the scrollbar handle */
+::-webkit-scrollbar-thumb {
+    background: #555; /* Medium grey color, this is the actual scrollbar */
+}
+
+/* You can also change the scrollbar width and height */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the vertical scrollbar */
+    height: 12px; /* Height of the horizontal scrollbar */
 }
